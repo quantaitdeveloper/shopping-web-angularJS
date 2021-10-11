@@ -4,15 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HellowordComponent } from './components/helloword/helloword.component';
 import { TestComponent } from './components/test/test.component';
-
+import { HeaderComponent } from './components/header/header.component';
+import {AppRoutingModule} from './app-routing.module';
+import {BlogPageComponent} from '../app/components/blog-page/blog-page.component'
 @NgModule({
   declarations: [
     AppComponent,
     HellowordComponent,
-    TestComponent   /* tự động import */
+    TestComponent,
+    HeaderComponent,   /* tự động import */
+    BlogPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

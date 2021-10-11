@@ -1,6 +1,6 @@
 <header>
         
-  <div class="row header_pc">
+  <div class="row header_pc g-0">
       <div class="col-xl-12 col-lg-12 header_notify">
           <div class="container">
               <div class="row justify-content-between">
@@ -59,33 +59,33 @@
                           </div>
                           <div class="col-xl-8 col-lg-8">
                               <div  class="row justify-content-between"> 
-                                  <a href="/" class="active-link col-xl-2 col-lg-2 g-0-r header_notify-homeTitle">
+                                  <a routerLink="/blog_page" class="active-link col-xl-2 col-lg-2 g-0-r header_notify-homeTitle">
                                       
                                       <span>Home</span>
                                       <i class="bi bi-chevron-down"></i>
                                   </a>
                               
-                                  <a href="/about" class="col-xl-2 col-lg-2">
+                                  <a routerLink="/single_blog" class="col-xl-2 col-lg-2">
                                       
                                       <span>Page</span>
                                   </a>
           
-                                  <a href="/" class="col-xl-2 col-lg-2">
+                                  <a routerLink="/about_us" class="col-xl-2 col-lg-2">
                                       
                                       <span>Product</span>
                                   </a>
           
-                                  <a href="/" class="col-xl-2 col-lg-2">
+                                  <a routerLink="/contact_us" class="col-xl-2 col-lg-2">
                                       
                                       <span>Blog</span>
                                   </a>
           
-                                  <a href="/" class="col-xl-2 col-lg-2">
+                                  <a routerLink="/faq_page" class="col-xl-2 col-lg-2">
                                       
                                       <span>Shop</span>
                                   </a>
           
-                                  <a href="/" class="col-xl-2 col-lg-2">
+                                  <a routerLink="/login" class="col-xl-2 col-lg-2">
                                       
                                       <span>Contact</span>
                                   </a>
@@ -106,54 +106,54 @@
   
 </div>
 <!--For Mobie-->
-<div class="header_category-row row justify-content-between">
-
-  <div class="header_category  col-md-3 col-xs-3 col-3">
-    <label for="nav-mobie-input">
+<div class="header_category-row row justify-content-between g-0">
+    
+  <div class="header_category col-md-3 col-xs-3 col-3">
+    <input type="checkbox" id="nav-mobie-input-l" class="nav-input-l" hidden/>  
+    <label for="nav-mobie-input-l">
       <i class="bi bi-list icon-list"></i>
     </label>
     
     <h2>Hekto</h2>
 
-    <input type="checkbox" id="nav-mobie-input" class="nav-input" hidden/>
+    
 
     <div class="header_category-notify">
         <div class="row">
             <div class="col-12 header_mobie-close">
-              <label for="nav-mobie-input">
+              <label for="nav-mobie-input-l">
                   <i class="bi bi-x"></i>
                 </label>
             </div>
 
             <div class="col-12 header_mobie-navigation">
               <div class="row">
-                  <a href="/" class="active-link col-12 header_notify-homeTitle">
-                                      
+                  <a routerLink="/blog_page" class="active-link col-12 header_notify-homeTitle" routerLinkActive="active">        
                       <span>Home</span>
                       <i class="bi bi-chevron-down"></i>
                   </a>
               
-                  <a href="/about" class="col-12">
+                  <a routerLink="/single_blog" class="col-12">
                       
                       <span>Page</span>
                   </a>
 
-                  <a href="/" class="col-12">
+                  <a routerLink="/about_us" class="col-12">
                       
                       <span>Product</span>
                   </a>
 
-                  <a href="/" class="col-12">
+                  <a routerLink="/contact_us" class="col-12">
                       
                       <span>Blog</span>
                   </a>
 
-                  <a href="/" class="col-12">
+                  <a routerLink="/faq_page" class="col-12">
                       
                       <span>Shop</span>
                   </a>
 
-                  <a href="/" class="col-12">
+                  <a routerLink="/login" class="col-12">
                       
                       <span>Contact</span>
                   </a>
@@ -206,7 +206,7 @@
       
     </div>
 
-    <label for="nav-mobie-input" class="nav-overlay"></label >
+    <label for="nav-mobie-input-l" class="nav-overlay"></label>
   </div>
 
   <div class="header_category-tool col-xl-2 col-lg-2 col-md-2 col-xs-1 col-2">

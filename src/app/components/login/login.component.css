@@ -1,0 +1,25 @@
+.container_login-form button {
+  width: 100%;
+  background-color: #fb2e86;
+}
+.container_login-form button:hover {
+  background-color: #fb2e86;
+}
+.container_login-title,
+.container_login-footer {
+  text-align: center;
+}
+.container_login-title h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.container_login-title p {
+  font-size: 1.5rem;
+  color: gray;
+}
+.container_login-footer {
+  margin-top: 15px;
+}
+.container_login-footer a {
+  text-decoration: none;
+}

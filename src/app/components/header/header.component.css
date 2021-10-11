@@ -3,18 +3,24 @@
   color: white;
   padding: 16px 0 16px 0;
 }
+.header_notify .container {
+  padding: 0 24px 0 24px;
+}
+.header_navigation .container {
+  padding: 0 24px 0 24px;
+}
 .header_navigation {
   padding: 16px 0 16px 0;
   background-color: #e5e5e5;
 }
 .header_navigation a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
   color: black;
 }
 .header_notify-homeTitle i {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 .header_notify-search button {
   background-color: #fb2e86;
@@ -74,7 +80,7 @@
     margin-left: 10px;
   }
   .header_category-row .header_category h2 {
-    font-size: 16px;
+    font-size: 1.6rem;
     margin: 0;
   }
   .header_category-row .header_category i {
@@ -87,21 +93,10 @@
     top: 0;
     bottom: 0;
     background-color: whitesmoke;
-    transform: translateX(-101%);
+    transform: translateX(-100%);
     z-index: 1;
     transition: transform linear 0.3s;
   }
-  .header_category-notify label {
-    /* position: relative;
-        width: 10px;
-        height: 10px; */
-  }
-
-  /* .header_category-row .header_category .header_category-notify i {
-        position: absolute;
-        color: black;
-        font-size: 16px;
-      } */
 
   .header_category-row .header_category .nav-overlay {
     position: fixed;
@@ -113,13 +108,14 @@
     display: none;
   }
 
-  .nav-input:checked ~ .nav-overlay {
+  .nav-input-l:checked ~ .nav-overlay {
     display: block;
   }
 
-  .nav-input:checked ~ .header_category-notify {
+  .nav-input-l:checked ~ .header_category-notify {
     transform: translateX(0);
   }
+
   .header_category-tool {
     display: flex;
     /* justify-content: space-between; */
@@ -128,11 +124,11 @@
     margin-right: 2.5%;
   }
   .icon-list {
-    font-size: 20px;
+    font-size: 2rem;
   }
   .header_mobie-navigation a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: black;
     display: flex;
     justify-content: space-between;
@@ -147,14 +143,14 @@
     padding: 0 20px 20px 20px;
   }
   .header_mobie-navigation span {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 500;
   }
   .header_mobie-notify .row {
     padding: 0 20px 20px 20px;
   }
   .header_mobie-notify span {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 500;
   }
   .header_mobie-notify .span {
@@ -176,7 +172,7 @@
     padding: 5px 0 5px 0;
   }
   .header_mobie-choice span {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 500;
   }
   .border_bottom {
@@ -191,7 +187,7 @@
     position: absolute;
     top: -2px;
     right: 13px;
-    font-size: 25px;
+    font-size: 2.5rem;
   }
   .icon_mobie-search {
     margin-left: auto;
@@ -216,7 +212,7 @@
     transform: translateX(0);
   }
   .header_mobie-overlay-search label i {
-    font-size: 25px;
+    font-size: 2.5rem;
   }
   .header_mobie-overlay-search .row .col-10 .input-group {
     margin: 0 !important;

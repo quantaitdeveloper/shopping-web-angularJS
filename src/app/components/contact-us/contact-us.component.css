@@ -1,0 +1,61 @@
+.container_contactUs-info div i:nth-child(1) {
+  color: purple;
+}
+.container_contactUs-info div i:nth-child(2) {
+  color: pink;
+}
+.container_contactUs-info div i:nth-child(3) {
+  color: rgb(25, 123, 235);
+}
+.icon-cw-1 {
+  color: purple;
+}
+.icon-cw-2 {
+  color: pink;
+}
+.icon-cw-3 {
+  color: rgb(25, 123, 235);
+}
+.icon-cw-4 {
+  color: rgb(73, 247, 116);
+}
+.icon-cw {
+  display: flex;
+  align-items: center;
+}
+.icon-cw i {
+  font-size: 4rem;
+}
+.icon-cw span {
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-left: 5px;
+  word-break: break-word;
+  font-size: 1.6rem;
+  color: gray;
+  font-weight: 550;
+}
+.container_contactUs-GIT {
+  margin-top: 40px;
+}
+.container_contactUs-GIT button {
+  background-color: #fb2e86;
+}
+.container_contactUs-img {
+  /* background-color: #fb2e86; */
+  border-radius: 44%;
+}
+.container_contactUs-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 44%;
+}
+.container_contactUs-getInTouch,
+.container_contactUs-info,
+.container_contactUs-contactWay,
+.container_contactUs-img {
+  margin-bottom: 50px;
+}

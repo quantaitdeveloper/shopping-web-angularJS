@@ -1,0 +1,28 @@
+.container_fqa-question span {
+  font-size: 2rem;
+  font-weight: 700;
+  color: purple;
+}
+.container_fqa-question p {
+  font-size: 1.5rem;
+  color: gray;
+  font-weight: 500;
+}
+.container_fqa-question {
+  margin-bottom: 15px;
+}
+.container_fqa-generel h3 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+.container_fqa-ask {
+  background-color: whitesmoke;
+  padding: 50px;
+}
+.container_fqa-ask h3 {
+  margin-bottom: 50px;
+}
+.container_fqa-ask form button {
+  background-color: #fb2e86;
+}

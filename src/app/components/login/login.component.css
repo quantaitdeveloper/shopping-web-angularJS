@@ -23,3 +23,23 @@
 .container_login-footer a {
   text-decoration: none;
 }
+form input {
+  font-size: 1.4rem;
+}
+form button {
+  font-size: 1.4rem;
+}
+.container_login {
+  margin-top: 100px;
+}
+form a {
+  font-size: 1.3rem;
+}
+.container_login-footer a {
+  font-size: 1.3rem;
+}
+.container_login-content {
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 2px #dee2e6, 0em -2px 0em 0px #dee2e6;
+  border-radius: 2%;
+}

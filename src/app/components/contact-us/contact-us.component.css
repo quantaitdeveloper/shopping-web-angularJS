@@ -7,6 +7,16 @@
 .container_contactUs-info div i:nth-child(3) {
   color: rgb(25, 123, 235);
 }
+.container_contactUs-info div i {
+  font-size: 2rem;
+  margin-right: 5px;
+}
+.container_contactUs-info p {
+  font-size: 1.4rem;
+}
+.container_contactUs-getInTouch span {
+  font-size: 1.4rem;
+}
 .icon-cw-1 {
   color: purple;
 }
@@ -58,4 +68,16 @@
 .container_contactUs-contactWay,
 .container_contactUs-img {
   margin-bottom: 50px;
+}
+form input {
+  font-size: 1.6rem;
+}
+form textarea {
+  font-size: 1.6rem;
+}
+form button {
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 2.2rem;
 }

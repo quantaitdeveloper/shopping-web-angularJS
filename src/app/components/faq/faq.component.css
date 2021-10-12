@@ -22,7 +22,17 @@
 }
 .container_fqa-ask h3 {
   margin-bottom: 50px;
+  font-size: 2.2rem;
 }
 .container_fqa-ask form button {
   background-color: #fb2e86;
+}
+form input {
+  font-size: 1.4rem;
+}
+form textarea {
+  font-size: 1.4rem;
+}
+form button {
+  font-size: 1.4rem;
 }

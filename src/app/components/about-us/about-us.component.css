@@ -12,10 +12,14 @@
   margin-top: 50px;
 }
 .container_aboutUs-contact-descriptsion {
-  padding: 30px 0 0 0;
+  padding: 30px 0 0 30px;
+}
+.container_aboutUs-contact-descriptsion h3 {
+  font-size: 2.6rem;
 }
 .container_aboutUs-contact-descriptsion p {
   color: gray;
+  font-size: 1.4rem;
 }
 .container_aboutUs-contact-descriptsion a {
   width: 145px;
@@ -29,10 +33,14 @@
   margin-top: 50px;
   border-radius: 3%;
   line-height: 40px;
+  font-size: 1.4rem;
 }
 .container_aboutus-feature-title {
   justify-content: center;
   display: flex;
+}
+.container_aboutus-feature-title h3 {
+  font-size: 2.6rem;
 }
 .container_aboutus-feature i {
   font-size: 5rem;
@@ -45,6 +53,10 @@
 .container_aboutus-icon p:nth-child(2) {
   font-weight: 600;
   font-size: 2rem;
+}
+.container_aboutus-icon p:nth-child(3) {
+  font-size: 1.3rem;
+  /* padding: 0 10px 0 10px; */
 }
 .icon-i-1 {
   color: rgb(245, 39, 24);

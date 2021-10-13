@@ -10,11 +10,11 @@
   text-align: center;
 }
 .container_login-title h3 {
-  font-size: 2rem;
+  font-size: 3.4rem;
   font-weight: 700;
 }
 .container_login-title p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: gray;
 }
 .container_login-footer {
@@ -24,19 +24,19 @@
   text-decoration: none;
 }
 form input {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 form button {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .container_login {
   margin-top: 100px;
 }
 form a {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
 }
 .container_login-footer a {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
 }
 .container_login-content {
   background-color: whitesmoke;

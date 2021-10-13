@@ -31,6 +31,7 @@
   align-items: center;
   justify-content: center;
   transition: all 0.5s;
+  text-align: center;
 }
 .nav-content a:hover {
   color: #fb2e86;

@@ -1,0 +1,13 @@
+.footer {
+  margin-top: 50px;
+  background-color: #e5e5e5 !important;
+}
+.footer_links h6 {
+  font-size: 1.6rem;
+}
+.footer p {
+  font-size: 1.4rem;
+}
+.footer a {
+  text-decoration: none;
+}

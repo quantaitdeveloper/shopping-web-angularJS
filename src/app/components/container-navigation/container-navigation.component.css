@@ -1,0 +1,23 @@
+.container_navigation {
+  height: 286px;
+  background-color: #f6f5ff;
+  margin-bottom: 30px;
+}
+.container_navigation .container {
+  height: inherit;
+}
+.container_navigation .container .row {
+  margin: auto;
+  height: inherit;
+}
+.container_navigation h3 {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+.container_navigation span {
+  font-size: 1.6rem;
+  font-weight: 480;
+}
+.container_navigation span:nth-child(3) {
+  color: red;
+}

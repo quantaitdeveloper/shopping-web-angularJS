@@ -6,8 +6,7 @@ import {ContactUsComponent} from './components/contact-us/contact-us.component'
 import {FAQComponent} from './components/faq/faq.component'
 import {LoginComponent} from './components/login/login.component'
 import {SinglBlogComponent} from './components/singl-blog/singl-blog.component'
-
-
+import {PageNotFoundComponent} from './components/page-not-found/page-not-found.component'
 const routes: Routes = [
   {
     path: "blog_page",
@@ -32,6 +31,10 @@ const routes: Routes = [
   {
     path: "login",
     component: LoginComponent
+  },
+  {
+    path: "**",
+    component: PageNotFoundComponent
   },
   
 ];

@@ -2,15 +2,12 @@ html {
   font-size: 62.5%;
   line-height: 1.6rem; /* chieeuf cao cua chu */
 }
-.container_navigation {
-  height: 286px;
-  background-color: #f6f5ff;
-  margin-bottom: 30px;
+
+.footer_container-img {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.container_navigation .container {
-  height: inherit;
-}
-.container_navigation .container .row {
-  margin: auto;
-  height: inherit;
+.footer_container-img img {
+  width: 100%;
+  object-fit: cover;
 }

@@ -15,11 +15,11 @@
   padding: 30px 0 0 30px;
 }
 .container_aboutUs-contact-descriptsion h3 {
-  font-size: 2.6rem;
+  font-size: 3.6rem;
 }
 .container_aboutUs-contact-descriptsion p {
   color: gray;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .container_aboutUs-contact-descriptsion a {
   width: 145px;
@@ -52,10 +52,10 @@
 }
 .container_aboutus-icon p:nth-child(2) {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 .container_aboutus-icon p:nth-child(3) {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   /* padding: 0 10px 0 10px; */
 }
 .icon-i-1 {

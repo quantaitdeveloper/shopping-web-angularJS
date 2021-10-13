@@ -49,18 +49,18 @@
   height: 100%;
 }
 .container_blogPage-descripttion h2 {
-  font-size: 2.1rem;
+  font-size: 3rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
 }
 .container_blogPage-descripttion p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   line-height: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .container_blogPage-descripttion p:nth-child(3) {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 .container_blogPage-descripttion p:nth-child(3) i {
@@ -95,7 +95,7 @@
   margin-left: 15px;
 }
 .container_recentPost-img div span {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 600;
   white-space: pre-wrap;
   overflow: hidden;

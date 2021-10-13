@@ -71,7 +71,7 @@
   height: 100%;
 }
 .container_singleBlog-descripttion h2 {
-  font-size: 2.1rem;
+  font-size: 3rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
 }
@@ -87,7 +87,7 @@
   line-height: 22px;
 }
 .container_singleBlog-descripttion p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   line-height: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -196,6 +196,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.container_navigationPage a {
+  font-size: 1.6rem;
 }
 .activeColor {
   background-color: pink;

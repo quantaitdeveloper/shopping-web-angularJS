@@ -9,8 +9,8 @@ h3 {
 }
 a {
   text-decoration: none;
-  width: 100px;
-  height: 30px;
+  width: 165px;
+  height: 44px;
   background-color: #fb2e86;
   color: white;
   text-align: center;
@@ -21,7 +21,7 @@ a span {
   position: absolute;
   top: 18%;
   right: 15%;
-  font-size: 11px;
+  font-size: 16px;
 }
 .container_page_not_found div {
   margin-bottom: 20px;

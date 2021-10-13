@@ -15,7 +15,7 @@
 }
 .header_navigation a {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: black;
 }
@@ -62,7 +62,7 @@
   align-content: center;
 }
 .header_notify span {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .header_notify i {
   font-size: 1.4rem;
@@ -74,7 +74,7 @@
   display: flex;
 }
 .header_navigation h3 {
-  font-size: 2rem;
+  font-size: 3.4rem;
 }
 .header_notifys i {
   margin-left: 4%;

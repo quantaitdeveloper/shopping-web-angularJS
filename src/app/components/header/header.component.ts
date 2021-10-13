@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  public fixedClass = "";
+
+
+
+  @HostListener('window:scroll', ['$event']) onScroll(event: any) {
+    console.log(event);
+    this.fixedClass = "navbar-fixed-top"
+  }
+  constructor() {
+
+
+  }
+
+
 
   ngOnInit(): void {
   }

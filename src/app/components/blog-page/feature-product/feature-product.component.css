@@ -1,22 +1,11 @@
-.feature-title {
-  font-family: Josefin Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 42px;
-  line-height: 42px;
-  /* identical to box height */
-
-  color: #1a0b5b;
-  text-align: center;
-}
 .product-list {
-  margin-top: 30px;
+  margin: 50px auto;
 }
 
 .background {
   width: 100%;
   height: 240px;
-  background-image: url("../../../assets/image/Rectangle 91.png");
+  background-image: url("../../../../assets/image/Rectangle 91.png");
 }
 
 .product-img {

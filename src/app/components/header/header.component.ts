@@ -12,8 +12,6 @@ export class HeaderComponent implements OnInit {
 
 
   @HostListener('window:scroll', ['$event']) onScroll(event: any) {
-    console.log(event);
-    this.fixedClass = "navbar-fixed-top"
   }
   constructor() {
 

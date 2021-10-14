@@ -14,13 +14,14 @@ import { LoginComponent } from './components/login/login.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContainerNavigationComponent } from './components/container-navigation/container-navigation.component';
-import { FeatureProductComponent } from './components/blog-page/feature-product/feature-product.component'
+import { FeatureProductComponent } from './components/blog-page/feature-product/feature-product.component';
+import { LeatestProductComponent } from './components/blog-page/leatest-product/leatest-product.component'
 @NgModule({
   declarations: [
     AppComponent,
     HellowordComponent,
     HeaderComponent,
-    BlogPageComponent, SinglBlogComponent, AboutUsComponent, ContactUsComponent, FAQComponent, LoginComponent, PageNotFoundComponent, FooterComponent, ContainerNavigationComponent, FeatureProductComponent
+    BlogPageComponent, SinglBlogComponent, AboutUsComponent, ContactUsComponent, FAQComponent, LoginComponent, PageNotFoundComponent, FooterComponent, ContainerNavigationComponent, FeatureProductComponent, LeatestProductComponent
   ],
   imports: [
     BrowserModule,

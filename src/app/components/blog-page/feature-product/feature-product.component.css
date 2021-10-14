@@ -86,7 +86,9 @@
   margin: 10px 5px;
   cursor: pointer;
 }
-
+.carousel-indicators {
+  bottom: -70px;
+}
 .index1 {
   background: #05e6b7;
   border-radius: 10px;
@@ -104,4 +106,22 @@
 .index3 {
   background: #00009d;
   border-radius: 10px;
+}
+
+.card-body h5 {
+  color: #151875;
+}
+
+.card-body:hover {
+  transition: all 0.5s;
+  background: #2f1ac4;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-body:hover .card-title {
+  color: #fff;
+}
+
+.card-body:hover h5 {
+  color: #fff;
 }

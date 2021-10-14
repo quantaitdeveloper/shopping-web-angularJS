@@ -167,7 +167,7 @@
     bottom: 0;
     background-color: whitesmoke;
     transform: translateX(-100%);
-    z-index: 1;
+    z-index: 4;
     transition: transform linear 0.3s;
   }
 
@@ -181,12 +181,12 @@
     display: none;
   }
 
-  .nav-input-l:checked ~ .nav-overlay {
-    display: block;
+  .mobie_check:checked ~ .nav-overlay {
+    display: block !important;
   }
 
-  .nav-input-l:checked ~ .header_category-notify {
-    transform: translateX(0);
+  .mobie_check:checked ~ .header_category-notify {
+    transform: translateX(0) !important;
   }
 
   .header_category-tool {
@@ -277,7 +277,7 @@
     bottom: 0;
     background-color: whitesmoke;
     transform: translateX(100%);
-    z-index: 1;
+    z-index: 4;
     transition: transform linear 0.3s;
   }
 
